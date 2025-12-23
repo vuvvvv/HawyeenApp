@@ -8,12 +8,13 @@
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.abdulaziz.hobbies">
     <img src="icon.png" width="160"/>
-  </a>
+  </a> 
+
+   <b>👉Download on Google Play</b>
+
+
 </p>
 
-<p align="center">
-  👉 <b>Download on Google Play</b>
-</p>
 
 
  
