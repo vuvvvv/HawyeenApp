@@ -1,11 +1,11 @@
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header"/>
 # HawyeenApp ++
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=FF6F00&center=true&vCenter=true&width=600&lines=Hawyeen+🎨;Explore+Local+Hobbies;Built+with+Flutter+%26+Rive" />
 </p>
 
- <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header"/>
+ 
 
 🚨 Discover your neighbors’ hobbies with Hawyeen.
 
