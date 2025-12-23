@@ -17,26 +17,26 @@ Hawyeen combines attractive design with smooth animations to deliver an enjoyabl
 
 app icon 
 
-- ![""](img/icon.png)
+- ![""](icon.png)
 
 <br><br>
 
 profile
 
-- ![""](img/1.jpg)
+- ![""](1.jpg)
 
 
 <br><br>
 
 map
 
-- ![""](img/3.jpg)
+- ![""](3.jpg)
 
 <br><br>
 
 st
 
-- ![""](img/5.jpg)
+- ![""](5.jpg)
 
   
 <br><br>
