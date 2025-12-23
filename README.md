@@ -5,20 +5,17 @@
   <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=FF6F00&center=true&vCenter=true&width=600&lines=Hawyeen+🎨;Explore+Local+Hobbies;Built+with+Flutter+%26+Rive" />
 </p>
 
+
+ 
 <p align="center">
-  <a 
-    <img src="icon.png" width="160"/>
-<p align="center" href="https://play.google.com/store/apps/details?id=com.abdulaziz.hobbies">
-
-  👉 <b>Download on Google Play</b>
-</p>
-
-  </a> 
-
-   
+  <a href="https://play.google.com/store/apps/details?id=com.abdulaziz.hobbies" target="_blank">
+    <img src="icon.png" width="160"/><br>
+    👉 <b>Download on Google Play</b>
+  </a>
+</p> 
 
 
-</p>
+
 
 
 
