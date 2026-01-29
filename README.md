@@ -10,7 +10,6 @@
  
 <p align="center">
   <a href="https://play.google.com/store/apps/details?id=com.abdulaziz.hobbies" target="_blank">
-    <img src="icon.png" width="160"/><br>
     👉 <b>Download on Google Play</b>
   </a>
 </p> 
