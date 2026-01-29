@@ -14,7 +14,12 @@
     👉 <b>Download on Google Play</b>
   </a>
 </p> 
-
+<p align="center">
+  <a href="https://appgallery.huawei.com/app/C116746173?sharePrepath=ag&locale=ar_SA&source=appshare&subsource=C116746173&shareTo=com.android.bips&shareFrom=appmarket&shareIds=2393656293cb4921b1cd8ebaefa72903_com.android.bips&callType=SHARE" target="_blank">
+    <img src="icon.png" width="160"/><br>
+    👉 <b>Download on huawei appgallery</b>
+  </a>
+</p> 
 
 
 
