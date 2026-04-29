@@ -5,11 +5,13 @@
   "type": "module",
   "homepage": "https://vuvvvv.github.io/HawyeenApp",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "@rive-app/react-webgl2": "^4.27.3",
     "firebase": "^12.12.1",
