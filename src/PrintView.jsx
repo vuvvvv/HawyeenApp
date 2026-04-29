@@ -143,7 +143,6 @@ export default function PrintView({ onLogout }) {
         }}
         dir="rtl"
       >
-        
         <div
           style={{
             background: "rgba(255,255,255,0.04)",
@@ -190,7 +189,6 @@ export default function PrintView({ onLogout }) {
           </div>
         </div>
 
-      
         <div
           style={{
             background: "rgba(255,255,255,0.06)",

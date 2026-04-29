@@ -4,7 +4,6 @@ import { useEffect, useRef, useState, useCallback } from "react";
 import BOY_SVG_URL from "./assets/boy.svg";
 import GIRL_SVG_URL from "./assets/girl.svg";
 
-
 const HOBBY_LABELS = {
   reading: "قراءة",
   sports: "رياضة",
@@ -621,7 +620,7 @@ function PopupCard({ user, onClose }) {
 }
 
 const GOOGLE_MAPS_API_KEY = "AIzaSyCnzKY1hAi47gKsImk0pJ2Bulc18qWoTbc";
-const API = import.meta.env.VITE_API_URL ;
+const API = import.meta.env.VITE_API_URL;
 let cachedUsers = null;
 export function clearMapCache() {
   cachedUsers = null;
@@ -742,7 +741,7 @@ export default function MapPage() {
 
   const updateTrendFromMap = useCallback((mapInstance) => {
     if (!mapInstance) return;
-    if (isLocatingRef.current) return; 
+    if (isLocatingRef.current) return;
     const currentUsers = usersRef.current;
     const center = mapInstance.getCenter();
     const zoom = mapInstance.getZoom();
@@ -861,41 +860,39 @@ export default function MapPage() {
     });
   }, [users, mapReady]);
 
-  
   const [locating, setLocating] = useState(false);
- const handleLocate = () => {
-   if (!navigator.geolocation) {
-     showToast("المتصفح لا يدعم تحديد الموقع");
-     return;
-   }
+  const handleLocate = () => {
+    if (!navigator.geolocation) {
+      showToast("المتصفح لا يدعم تحديد الموقع");
+      return;
+    }
 
-   setLocating(true);
-   isLocatingRef.current = true;
+    setLocating(true);
+    isLocatingRef.current = true;
 
-   navigator.geolocation.getCurrentPosition(
-     (pos) => {
-       mapInstanceRef.current?.panTo({
-         lat: pos.coords.latitude,
-         lng: pos.coords.longitude,
-       });
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        mapInstanceRef.current?.panTo({
+          lat: pos.coords.latitude,
+          lng: pos.coords.longitude,
+        });
 
-       mapInstanceRef.current?.setZoom(16);
+        mapInstanceRef.current?.setZoom(16);
 
-       
-       setTimeout(() => {
-         isLocatingRef.current = false;
-       }, 800);
+        setTimeout(() => {
+          isLocatingRef.current = false;
+        }, 800);
 
-       setLocating(false);
-     },
-     (err) => {
-       setLocating(false);
-       isLocatingRef.current = false;
-       showToast("فشل في تحديد الموقع");
-     },
-     { enableHighAccuracy: true, timeout: 10000 },
-   );
- };
+        setLocating(false);
+      },
+      (err) => {
+        setLocating(false);
+        isLocatingRef.current = false;
+        showToast("فشل في تحديد الموقع");
+      },
+      { enableHighAccuracy: true, timeout: 10000 },
+    );
+  };
 
   const handleZoomIn = () =>
     mapInstanceRef.current?.setZoom(
