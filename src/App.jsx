@@ -11,7 +11,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
 let auth;
-const API = import.meta.env.VITE_API_URL || "/api";
+const API = import.meta.env.VITE_API_URL;
 
 async function getAuth_() {
   if (auth) return auth;
@@ -21,7 +21,6 @@ async function getAuth_() {
   auth = getAuth(app);
   return auth;
 }
-
 
 const SPLASH_SM_IDLE = "idel";
 const SPLASH_SM_MOVE = "move";

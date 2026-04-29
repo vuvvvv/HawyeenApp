@@ -6,7 +6,7 @@ let cachedProfile = null;
 export function clearProfileCache() {
   cachedProfile = null;
 }
-const API = import.meta.env.VITE_API_URL || "/api";
+const API = import.meta.env.VITE_API_URL ;
 async function loadProfile() {
   if (cachedProfile) return cachedProfile;
   try {

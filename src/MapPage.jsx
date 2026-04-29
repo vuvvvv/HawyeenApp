@@ -621,7 +621,7 @@ function PopupCard({ user, onClose }) {
 }
 
 const GOOGLE_MAPS_API_KEY = "AIzaSyCnzKY1hAi47gKsImk0pJ2Bulc18qWoTbc";
-const API = import.meta.env.VITE_API_URL || "/api";
+const API = import.meta.env.VITE_API_URL ;
 let cachedUsers = null;
 export function clearMapCache() {
   cachedUsers = null;
