@@ -18,7 +18,7 @@ async function loadProfile() {
     cachedProfile = data?.profile ?? null;
     return cachedProfile;
   } catch {
-    
+    console.error("loadProfile failed:", err);
     cachedProfile = {
       name: "ابو عزوز",
       gender: "male",
