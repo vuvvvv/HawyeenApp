@@ -54,6 +54,7 @@ function SplashView({ onContinue }) {
   const timerRef = useRef(null);
   const continuedRef = useRef(false);
   const hint2TimerRef = useRef(null);
+  const hintDismissingRef = useRef(false);
 
   const { rive, RiveComponent } = useRive(
     {
@@ -81,7 +82,7 @@ function SplashView({ onContinue }) {
     setTimeout(() => {
       setHintFading(false);
       setHint(null);
-      after?.();
+      setTimeout(() => after?.(), 50);
     }, 1200);
   }, []);
 
@@ -92,21 +93,22 @@ function SplashView({ onContinue }) {
 
     setHint("scroll");
 
-    hint2TimerRef.current = setTimeout(() => {
-      dismissHint(() => {
-        const t = setTimeout(() => setHint("touch"), 400);
-        return () => clearTimeout(t);
-      });
-    }, 3500);
-
     return () => {
       if (hint2TimerRef.current) clearTimeout(hint2TimerRef.current);
     };
   }, [dismissHint]);
 
   const handlePointerMove = () => {
-    if (hint) {
-      if (hint2TimerRef.current) clearTimeout(hint2TimerRef.current);
+    if (hint === "scroll" && !hintDismissingRef.current) {
+      hintDismissingRef.current = true;
+      dismissHint(() => {
+        hint2TimerRef.current = setTimeout(() => {
+          setHint("touch");
+          hintDismissingRef.current = false;
+        }, 900);
+      });
+    } else if (hint === "touch" && !hintDismissingRef.current) {
+      hintDismissingRef.current = true;
       dismissHint();
     }
 
@@ -119,7 +121,6 @@ function SplashView({ onContinue }) {
     }
     setStarted(true);
   };
-
   useEffect(() => {
     if (!started || continuedRef.current) return;
     if (timerRef.current) clearTimeout(timerRef.current);

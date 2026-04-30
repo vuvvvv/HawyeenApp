@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/HawyeenApp/", // 👈 هذا أهم شي
+  base: "/HawyeenApp/",
 
   server: {
     host: "0.0.0.0",
