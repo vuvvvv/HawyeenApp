@@ -165,7 +165,7 @@ function SplashView({ onContinue }) {
       style={{
         width: "100%",
         height: "100%",
-        background: "#000",
+        background: "#0300FF",
         overflow: "hidden",
       }}
     >
@@ -424,7 +424,7 @@ function LoginView({
       style={{
         width: "100%",
         height: "100%",
-        background: "#000",
+        background: "#5C3529",
         overflow: "hidden",
         position: "relative",
       }}
@@ -685,7 +685,9 @@ export default function App() {
 
   if (screen === null) {
     return (
-      <div style={{ width: "100vw", height: "100svh", background: "#000" }} />
+      <div
+        style={{ width: "100vw", height: "100svh", background: "#0300FF" }}
+      />
     );
   }
 
