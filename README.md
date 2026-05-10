@@ -44,25 +44,27 @@ app icon
 
 - ![""](icon.png)
 
-<br><br>
-
-profile
-
-- ![""](1.jpg)
-
 
 <br><br>
 
-map
+<table align="center">
+<tr>
+<td align="center">
+<b>Profile</b><br>
+<img src="1.jpg" width="220"/>
+</td>
 
-- ![""](3.jpg)
+<td align="center">
+<b>Map</b><br>
+<img src="3.jpg" width="220"/>
+</td>
 
-<br><br>
-
-Settings
-
-- ![""](5.jpg)
-
+<td align="center">
+<b>Settings</b><br>
+<img src="5.jpg" width="220"/>
+</td>
+</tr>
+</table>
 <br><br>
 
 Various animations are used throughout the app
