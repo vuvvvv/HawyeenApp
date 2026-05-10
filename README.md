@@ -40,9 +40,13 @@ Hawyeen combines attractive design with smooth animations to deliver an enjoyabl
 
 <br><br>
 
-app icon 
 
-- ![""](icon.png)
+
+
+<td align="center">
+<b>app icon </b><br>
+<img src="icon.png" width="220"/>
+</td>
 
 
 <br><br>
@@ -67,16 +71,19 @@ app icon
 </table>
 <br><br>
 
-Various animations are used throughout the app
+## Various animations are used throughout the app
 
-<p align="center">
-  <img src="1.gif" width="300"/>
-</p>
+<table align="center">
+<tr>
+<td align="center">
+<img src="1.gif" width="300"/>
+</td>
 
-<p align="center">
-  <img src="2.gif" width="300"/>
-</p>
-
+<td align="center">
+<img src="2.gif" width="300"/>
+</td>
+</tr>
+</table>
   
 <br><br>
 <br><br>
