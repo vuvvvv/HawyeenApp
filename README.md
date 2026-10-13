@@ -4,7 +4,7 @@
 
 # هاويين &nbsp;|&nbsp; Hawyeen
 
-### اكتشف هوايات جيرانك — مجتمع الهوايات على الخريطة
+### اكتشف هوايات جيرانك مجتمع الهوايات على الخريطة
 
 [![Google Play](https://img.shields.io/badge/Google_Play-Download-3DDC84?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.abdulaziz.hobbies) [![AppGallery](https://img.shields.io/badge/AppGallery-Download-CF0A2C?style=for-the-badge&logo=huawei&logoColor=white)](https://appgallery.huawei.com/app/C116746173) [![Web](https://img.shields.io/badge/Web-Live_Demo-574F1E?style=for-the-badge&logo=googlechrome&logoColor=white)](https://vuvvvv.github.io/HawyeenApp/)
 
