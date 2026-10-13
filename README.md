@@ -1,121 +1,147 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header"/>
+<div align="center">
 
-# HawyeenApp ++
+<img src="docs/icon.png" width="132" alt="شعار هاويين" />
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=FF6F00&center=true&vCenter=true&width=600&lines=Hawyeen+🎨;Explore+Local+Hobbies;Built+with+Flutter+%26+Rive" />
-</p>
+# هاويين &nbsp;|&nbsp; Hawyeen
 
+### اكتشف هوايات جيرانك — مجتمع الهوايات على الخريطة
 
- 
-<p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.abdulaziz.hobbies" target="_blank">
-    👉 <b>Download on Google Play</b>
-  </a>
-</p> 
-<p align="center">
-  <a href="https://appgallery.huawei.com/app/C116746173?sharePrepath=ag&locale=ar_SA&source=appshare&subsource=C116746173&shareTo=com.android.bips&shareFrom=appmarket&shareIds=2393656293cb4921b1cd8ebaefa72903_com.android.bips&callType=SHARE" target="_blank">
-    <img src="icon.png" width="160"/><br>
-    👉 <b>Download on huawei appgallery</b>
-  </a>
-</p> 
+[![Google Play](https://img.shields.io/badge/Google_Play-Download-3DDC84?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.abdulaziz.hobbies) [![AppGallery](https://img.shields.io/badge/AppGallery-Download-CF0A2C?style=for-the-badge&logo=huawei&logoColor=white)](https://appgallery.huawei.com/app/C116746173) [![Web](https://img.shields.io/badge/Web-Live_Demo-574F1E?style=for-the-badge&logo=googlechrome&logoColor=white)](https://vuvvvv.github.io/HawyeenApp/)
 
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Rive](https://img.shields.io/badge/Rive-1D1D1D?style=flat-square&logo=rive&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 
+</div>
 
-
-
- 
-
-🚨 Discover your neighbors’ hobbies with Hawyeen.
-
-<br><br>
-
-## 🚨Built with Flutter and Rive animations🚨
-
-<br><br>
-HawyeenApp – Hobby Community
-Hawyeen combines attractive design with smooth animations to deliver an enjoyable and immersive user experience. Your privacy comes first: share hobbies safely on the map using a smart location obfuscation algorithm that shows only your area, not your exact location. Public data includes name, hobbies, and gender only. All other data remains encrypted and secure. Discover new hobbies and connect with an active, safe community. Currently available in Saudi Arabia, with more cities coming soon.
-
-
-
-<br><br>
-
-
-
-
-<td align="center">
-<b>app icon </b><br>
-<img src="icon.png" width="220"/>
-</td>
-
-
-<br><br>
+<br>
 
 <table align="center">
-<tr>
-<td align="center">
-<b>Profile</b><br>
-<img src="1.jpg" width="220"/>
-</td>
-
-<td align="center">
-<b>Map</b><br>
-<img src="3.jpg" width="220"/>
-</td>
-
-<td align="center">
-<b>Settings</b><br>
-<img src="5.jpg" width="220"/>
-</td>
-</tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/03-map.jpg" width="190" alt="الخريطة" /></td>
+    <td align="center"><img src="docs/screenshots/02-trend.jpg" width="190" alt="ترند الحي" /></td>
+    <td align="center"><img src="docs/screenshots/08-hobby-card.jpg" width="190" alt="بطاقة الهواية" /></td>
+    <td align="center"><img src="docs/screenshots/07-chats.jpg" width="190" alt="المحادثات" /></td>
+  </tr>
 </table>
-<br><br>
 
-## Various animations are used throughout the app
+<div dir="rtl">
+
+## ما هو هاويين؟
+
+**هاويين** تطبيق اجتماعي يجمع الناس حول **هواياتهم**. تفتح الخريطة فتشوف من حولك من الهواة: أسماؤهم وهواياتهم، وما هي الهوايات الأكثر حضورًا في حيّك ومدينتك، ثم تتعرّف عليهم وتتواصل معهم.
+
+تصميمه مبني على أنيميشن سلس بتقنية **Rive**، وخصوصيتك فيه أولًا: موقعك لا يظهر بدقة لأحد.
+
+<br>
+
+## المميزات
+
+- **خريطة الهواة**: كل مستخدم يشارك موقعه يظهر باسمه وهواياته على الخريطة.
+- **ترند الحي والمدينة**: اعرف أكثر الهوايات حضورًا حولك، وتتغير القائمة حسب المنطقة التي تتصفحها.
+- **ملفك وهواياتك**: اختر حتى 3 هوايات من أكثر من 30 هواية موزعة على فئات، وأضف لكل هواية نبذة قصيرة وحتى 3 صور توثّقها.
+- **طلبات تواصل ومحادثات**: أرسل طلب تواصل، وبعد القبول تبدأ محادثة بينكما.
+- **إشعارات ذكية**: عند انضمام هاوٍ جديد في حيّك أو مدينتك، وعند وصول طلب تواصل أو رسالة.
+- **أمان المجتمع**: إبلاغ وحظر للمستخدمين، وتحقق من البريد الإلكتروني عند التسجيل.
+- **لغتان**: عربي وإنجليزي.
+
+<br>
+
+## الخصوصية أولًا
+
+- **موقعك يُقرَّب قبل نشره** إلى منطقة بحجم كيلومتر تقريبًا، ولا يُعرض موقعك الدقيق لأي مستخدم.
+- **البيانات العامة** هي فقط: الاسم المستعار، الجنس، الهوايات، والمنطقة التقريبية.
+- **بريدك وإعدادات حسابك** خاصة بك ولا يراها أحد.
+- **أنت المتحكم**: توقف مشاركة الموقع في أي وقت، ويمكنك حذف حسابك مع بياناتك.
+
+<br>
+
+## لقطات من التطبيق
+
+</div>
 
 <table align="center">
-<tr>
-<td align="center">
-<img src="1.gif" width="300"/>
-</td>
-
-<td align="center">
-<img src="2.gif" width="300"/>
-</td>
-</tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/01-login.jpg" width="190" alt="تسجيل الدخول" /><br><sub>تسجيل الدخول</sub></td>
+    <td align="center"><img src="docs/screenshots/03-map.jpg" width="190" alt="الخريطة" /><br><sub>الخريطة</sub></td>
+    <td align="center"><img src="docs/screenshots/02-trend.jpg" width="190" alt="ترند الحي" /><br><sub>ترند الحي</sub></td>
+    <td align="center"><img src="docs/screenshots/08-hobby-card.jpg" width="190" alt="بطاقة الهواية" /><br><sub>بطاقة الهواية</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/05-profile.jpg" width="190" alt="الملف الشخصي" /><br><sub>الملف الشخصي</sub></td>
+    <td align="center"><img src="docs/screenshots/07-chats.jpg" width="190" alt="المحادثات" /><br><sub>المحادثات</sub></td>
+    <td align="center"><img src="docs/screenshots/04-notifications.jpg" width="190" alt="الإشعارات" /><br><sub>الإشعارات</sub></td>
+    <td align="center"><img src="docs/screenshots/06-settings.jpg" width="190" alt="الإعدادات" /><br><sub>الإعدادات</sub></td>
+  </tr>
 </table>
-  
-<br><br>
-<br><br>
 
-[@vuvvvv](https://github.com/vuvvvv)
+<div dir="rtl">
 
-<!-- 🔹 Meta SEO -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="HawyeenApp – Hobby Community
-Hawyeen combines attractive design with smooth animations to deliver an enjoyable and immersive user experience. Your privacy comes first: share hobbies safely on the map using a smart location obfuscation algorithm that shows only your area, not your exact location. Public data includes name, hobbies, and gender only. All other data remains encrypted and secure. Discover new hobbies and connect with an active, safe community. Currently available in Saudi Arabia, with more cities coming soon.">
-<meta name="keywords" content="🚨Built with Flutter and Rive animations🚨">
-<meta name="author" content="HawyeenApp">
-<meta name="robots" content="index, follow">
+<br>
 
-<!-- 🔹 Open Graph (Facebook, WhatsApp, LinkedIn) -->
-<meta property="og:title" content="HawyeenApp – Hobby Community
-Hawyeen combines attractive design with smooth animations to deliver an enjoyable and immersive user experience. Your privacy comes first: share hobbies safely on the map using a smart location obfuscation algorithm that shows only your area, not your exact location. Public data includes name, hobbies, and gender only. All other data remains encrypted and secure. Discover new hobbies and connect with an active, safe community. Currently available in Saudi Arabia, with more cities coming soon.">
-<meta property="og:description" content="🚨Built with Flutter and Rive animations🚨">
-<meta property="og:image" content="icon.png">
-<meta property="og:url" content="https://github.com/vuvvvv/HawyeenApp">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="HawyeenApp">
+## أنيميشن في كل مكان
 
-<!-- 🔹 Twitter Cards -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="HawyeenApp – Hobby Community
-Hawyeen combines attractive design with smooth animations to deliver an enjoyable and immersive user experience. Your privacy comes first: share hobbies safely on the map using a smart location obfuscation algorithm that shows only your area, not your exact location. Public data includes name, hobbies, and gender only. All other data remains encrypted and secure. Discover new hobbies and connect with an active, safe community. Currently available in Saudi Arabia, with more cities coming soon.">
-<meta name="twitter:description" content="🚨Built with Flutter and Rive animations🚨">
-<meta name="twitter:image" content="icon.png">
+يعتمد التطبيق على أنيميشن **Rive** في شاشاته، لتجربة ممتعة وسلسة.
 
-<!-- 🔹 Favicon & Theme -->
-<link rel="icon" type="image/png" sizes="32x32" href="icon.png">
-<link rel="icon" type="image/png" sizes="16x16" href="icon.png">
-<meta name="theme-color" content="#0d0d0d">
+</div>
+
+<table align="center">
+  <tr>
+    <td align="center"><img src="docs/animations/1.gif" width="260" alt="أنيميشن" /></td>
+    <td align="center"><img src="docs/animations/2.gif" width="260" alt="أنيميشن" /></td>
+  </tr>
+</table>
+
+<div dir="rtl">
+
+<br>
+
+## نسخة الويب
+
+لمن لا يريد تحميل التطبيق، توجد لمحة مصغّرة منه على الويب: ادخل كضيف وشاهد الخريطة والهوايات والترند، أو سجّل دخولك بحسابك. وتدعم العربية والإنجليزية ونمطين للخريطة: داكن وكلاسيكي.
+
+**[افتح نسخة الويب](https://vuvvvv.github.io/HawyeenApp/)**
+
+<br>
+
+## التقنيات
+
+| الجزء | ما استخدمته |
+|---|---|
+| التطبيق | Flutter (Dart) |
+| الخدمات | Firebase: Authentication, Firestore, Storage, Cloud Functions, Cloud Messaging |
+| الخريطة | Google Maps، وتحميل المستخدمين حسب المنطقة المعروضة باستخدام Geohash |
+| الأنيميشن | Rive |
+| الويب | React + Vite، ويُستضاف على GitHub Pages |
+
+<br>
+
+## التحميل
+
+متاح حاليًا في **المملكة العربية السعودية**، والمزيد من المدن قريبًا.
+
+[![Google Play](https://img.shields.io/badge/Google_Play-Download-3DDC84?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.abdulaziz.hobbies) [![AppGallery](https://img.shields.io/badge/AppGallery-Download-CF0A2C?style=for-the-badge&logo=huawei&logoColor=white)](https://appgallery.huawei.com/app/C116746173)
+
+<br>
+
+صُنع في المدينة المنورة بالحب ❤️ &nbsp;·&nbsp; [@vuvvvv](https://github.com/vuvvvv)
+
+</div>
+
+<details>
+<summary><b>English</b></summary>
+
+<br>
+
+**Hawyeen** is a hobby community on a map. See who around you shares your hobbies, discover the most popular hobbies in your neighborhood and city, then connect and chat.
+
+- Map of hobbyists with name and hobbies
+- Neighborhood and city hobby trends
+- Pick up to 3 hobbies and document each with a short bio and up to 3 photos
+- Connection requests and chats, smart notifications, report and block
+- Arabic and English
+- **Privacy first:** your location is rounded to an area of about one kilometer before it is shared, and your exact location is never shown to anyone. Public data is only your nickname, gender, hobbies and approximate area.
+
+Built with Flutter, Firebase and Rive. Available in Saudi Arabia, more cities coming soon.
+
+[Google Play](https://play.google.com/store/apps/details?id=com.abdulaziz.hobbies) · [AppGallery](https://appgallery.huawei.com/app/C116746173) · [Web demo](https://vuvvvv.github.io/HawyeenApp/)
+
+</details>
